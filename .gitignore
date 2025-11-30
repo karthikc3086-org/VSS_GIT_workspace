@@ -1,0 +1,26 @@
+# Build outputs
+restcaller1/target/
+restcaller2/target/
+
+# Maven Wrapper folders
+restcaller1/.mvn/
+restcaller2/.mvn/
+
+# Logs and temp
+*.log
+**/hs_err_pid*.log
+**/replay_pid*.log
+**/.DS_Store
+**/Thumbs.db
+
+# IDE/Editor
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
