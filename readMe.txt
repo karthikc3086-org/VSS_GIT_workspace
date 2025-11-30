@@ -3,7 +3,7 @@
 	2.1 Create  a repo called VSS_GIT_workspace with branch called PROD
 	2.2  Add a dummy readMe.txt file
 	2.3 git init, git commit , git branch -M PROD
-	2.4 git remote add origin "https://token@github.com/karthiksekaran86/VSS_GIT_workspace.git"  [do not mention token incase you want to commit the file]
+	2.4 git remote add origin "https://token@github.com/karthikc3086-org/VSS_GIT_workspace.git"  [do not mention token incase you want to commit the file]
 	2.5 git push origin PROD
 3. Now create one more GIT branch called PRE-ROD (Based on PROD which is default branch)
 4. Create branch protection for PROD:   Settings → Branches → Branch protection rules → Add Branch ruleset.
@@ -18,4 +18,5 @@
     Added roles in "Bypass list"  : Repository Admin , Maintain
     Target branches : Default
 5. git fetch, git branch -M PRE-PROD
-6. Creating one more user with Maintained access to review it
+6. Creating one more user with Maintainer access to review it
+7. Changes pushed ot PRE-PROD by maintainer user.
