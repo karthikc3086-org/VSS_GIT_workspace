@@ -26,6 +26,6 @@
 10 Optional Step (This is required only when you want to keep the pre-prod branch in sync with 
   git checkout PRE-PROD
 git fetch origin
-git merge origin/PROD        # or: git rebase origin/PROD
+git merge origin/PROD        # or: git rebase origin/PROD (did not try commented option)
 git push --set-upstream origin PRE-PROD
 git push
