@@ -20,3 +20,5 @@
 5. git fetch, git branch -M PRE-PROD
 6. Creating one more user with Maintainer access to review it
 7. Changes pushed ot PRE-PROD by maintainer user.
+8. PULL request created by karthiksekaran and then approved by karthikc
+9. 
