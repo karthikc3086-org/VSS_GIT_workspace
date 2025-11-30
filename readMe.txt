@@ -22,8 +22,10 @@
 7. Changes pushed ot PRE-PROD by maintainer user.
 8. PULL request created by karthiksekaran and then approved by karthikc
 9. Attempt to push one change and create pull request.
+
+10 Optional Step (This is required only when you want to keep the pre-prod branch in sync with 
   git checkout PRE-PROD
 git fetch origin
-git merge origin/PROD        # or: git rebase origin/PROD
+git merge origin/PROD        # or: git rebase origin/PROD (did not try commented option)
 git push --set-upstream origin PRE-PROD
 git push
